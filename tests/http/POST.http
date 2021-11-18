@@ -1,0 +1,23 @@
+POST http://localhost:5000/api/contacts HTTP/1.1
+content-type: application/json
+authentication-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZW1haWwiOiJvc2NhckBnbWFpbC5jb20iLCJuYW1lIjoiT3NjYXIgZGEgU2lsdmEiLCJwYXNzd29yZCI6ImV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpsYldGcGJDSTZJbTl6WTJGeVFHZHRZV2xzTG1OdmJTSXNJbkJoYzNOM2IzSmtJam9pTVRJekluMC5WbVJrRzR6QWw3eXhPTklOdHpsZWFsRXZGNVFEQjEyUktITm9TazVxeDNjIn0.EETMtu3byHjf2rcTkxHzBbmApW07oxXGQ3VY8QCQwfU
+
+{
+    "name": "macapa",
+    "cellphone": "5541988315943",
+    "customer": "macapa"
+}
+
+###
+
+POST http://localhost:5000/api/contacts HTTP/1.1
+authentication-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZW1haWwiOiJvc2NhckBnbWFpbC5jb20iLCJuYW1lIjoiT3NjYXIgZGEgU2lsdmEiLCJwYXNzd29yZCI6ImV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpsYldGcGJDSTZJbTl6WTJGeVFHZHRZV2xzTG1OdmJTSXNJbkJoYzNOM2IzSmtJam9pTVRJekluMC5WbVJrRzR6QWw3eXhPTklOdHpsZWFsRXZGNVFEQjEyUktITm9TazVxeDNjIn0.EETMtu3byHjf2rcTkxHzBbmApW07oxXGQ3VY8QCQwfU
+content-type: application/json
+
+{
+    "name": "varejao",
+    "cellphone": "+55 (41) 98831-5943",
+    "customer": "varejao"
+}
+
+###
