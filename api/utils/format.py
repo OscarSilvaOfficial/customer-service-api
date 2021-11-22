@@ -23,3 +23,18 @@ def cellphone_varejao_format(cellphone):
   formatted_cellphone = "".join(numeric_filter)
 
   return formatted_cellphone
+
+def parse_customer(email):
+  """
+  Parse customer from email
+  """
+
+  if not email:
+    return None
+
+  customer = email.split('@')[1].split('.')[0]
+
+  if customer not in ['macapa', 'varejao']:
+    return 'Invalid creditor'
+
+  return customer

@@ -13,4 +13,6 @@ def is_authenticated(request):
 
   if validation.status_code != 200:
     return abort(401, 'Invalid authentication token')
+
+  return validation.json()
     
