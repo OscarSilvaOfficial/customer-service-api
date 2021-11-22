@@ -1,23 +1,45 @@
 POST http://localhost:5000/api/contacts HTTP/1.1
 content-type: application/json
-authentication-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZW1haWwiOiJvc2NhckBnbWFpbC5jb20iLCJuYW1lIjoiT3NjYXIgZGEgU2lsdmEiLCJwYXNzd29yZCI6ImV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpsYldGcGJDSTZJbTl6WTJGeVFHZHRZV2xzTG1OdmJTSXNJbkJoYzNOM2IzSmtJam9pTVRJekluMC5WbVJrRzR6QWw3eXhPTklOdHpsZWFsRXZGNVFEQjEyUktITm9TazVxeDNjIn0.EETMtu3byHjf2rcTkxHzBbmApW07oxXGQ3VY8QCQwfU
+authentication-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTgsImVtYWlsIjoib3NjYXJAbWFjYXBhLmNvbSIsIm5hbWUiOiJPc2NhciBkYSBTaWx2YSIsInBhc3N3b3JkIjoiZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SmxiV0ZwYkNJNkltOXpZMkZ5UUcxaFkyRndZUzVqYjIwaUxDSndZWE56ZDI5eVpDSTZJakV5TXlKOS53TWtLYlNjeGRXSEJSbXI3UnZ2WUt6dHZwd3FjOXpONi1rc3lLTC1JQlRrIn0.AtS0kmPnwx5Y3_iCp-cekUdFC7-_sTxG4PAO9c5_DQs
 
 {
-    "name": "macapa",
-    "cellphone": "5541988315943",
-    "customer": "macapa"
+    "contacts": [
+        {
+            "name": "macapa",
+            "cellphone": "5541988315943"
+        },
+        {
+            "name": "macapa",
+            "cellphone": "5541988315943"
+        },
+        {
+            "name": "macapa",
+            "cellphone": "5541988315943"
+        },
+        {
+            "name": "macapa",
+            "cellphone": "5541988315943"
+        },
+        {
+            "name": "macapa",
+            "cellphone": "5541988315943"
+        }, 
+        {
+            "name": "macapa",
+            "cellphone": "5541988315943"
+        }
+    ]
 }
 
 ###
 
 POST http://localhost:5000/api/contacts HTTP/1.1
-authentication-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwiZW1haWwiOiJvc2NhckBnbWFpbC5jb20iLCJuYW1lIjoiT3NjYXIgZGEgU2lsdmEiLCJwYXNzd29yZCI6ImV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpsYldGcGJDSTZJbTl6WTJGeVFHZHRZV2xzTG1OdmJTSXNJbkJoYzNOM2IzSmtJam9pTVRJekluMC5WbVJrRzR6QWw3eXhPTklOdHpsZWFsRXZGNVFEQjEyUktITm9TazVxeDNjIn0.EETMtu3byHjf2rcTkxHzBbmApW07oxXGQ3VY8QCQwfU
 content-type: application/json
+authentication-token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTUsImVtYWlsIjoib3NjYXJAdmFyZWphby5jb20iLCJuYW1lIjoiT3NjYXIgZGEgU2lsdmEiLCJwYXNzd29yZCI6ImV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSklVekkxTmlKOS5leUpsYldGcGJDSTZJbTl6WTJGeVFIWmhjbVZxWVc4dVkyOXRJaXdpY0dGemMzZHZjbVFpT2lJeE1qTWlmUS5RNXFQdkxyLTAtNS00eEIwNG9nRHBVbm5qeEJLc1pXR3BJaWxiU0d2QjJNIn0.o99vVo65dkBsKBFv5gvZW0khtMLUfI2E4BU5jebUTdM
 
 {
     "name": "varejao",
-    "cellphone": "+55 (41) 98831-5943",
-    "customer": "varejao"
+    "cellphone": "+5541988315943"
 }
 
 ###

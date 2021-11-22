@@ -7,6 +7,7 @@ class Macapa(Base, Contacts):
 
   __tablename__ = 'contacts'
   __table_args__ = {'extend_existing': True}
+  __bind_key__ = 'macapa'
 
   @property
   def nome(self):
